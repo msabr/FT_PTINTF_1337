@@ -29,23 +29,13 @@ In this project, you will:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/LuizGandra/ft-printf-42.git
-   cd ft-printf-42
+   git clone https://github.com/msabr/FT_PTINTF_1337
+   cd FT_PTINTF_1337
 
 2. Build the mandatory part:
 
    ```bash
    make
-
-3. Build the bonus part (optional):
-
-   ```bash
-   make bonus
-
-4. Link the library to a C project:
-
-   ```bash
-   clang -o program program.c -L<libftprintf.a directory> -lftprintf
 
 #### Additional commands
 
