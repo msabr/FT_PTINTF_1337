@@ -24,7 +24,31 @@ In this project, you will:
 - Preparing for future projects where **ft_printf** will be reused.  
 
 ## **Usage**  
-To compile and use **ft_printf** in your projects, run:  
+### How to Build and Run
 
-```sh
-make
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/LuizGandra/ft-printf-42.git
+   cd ft-printf-42
+
+2. Build the mandatory part:
+
+   ```bash
+   make
+
+3. Build the bonus part (optional):
+
+   ```bash
+   make bonus
+
+4. Link the library to a C project:
+
+   ```bash
+   clang -o program program.c -L<libftprintf.a directory> -lftprintf
+
+#### Additional commands
+
+- `make clean`: remove object files.
+- `make fclean`: remove the program and object files.
+- `make re`: rebuild everything.
