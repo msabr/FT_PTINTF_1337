@@ -1,4 +1,7 @@
 # **ft_printf - 42 Network**  
+<div align="center">
+<img src="ft_printf.png"/>
+</div>
 
 ## **Overview**  
 This project is focused on recreating the **printf** function from the C standard library. Through this implementation, you will gain an understanding of **variadic functions**, how formatted output works, and how to handle different data types dynamically.  
